@@ -4,7 +4,7 @@ import fs from 'fs';
 const routes = express.Router();
 
 const readData = ()=>{
-        const data= fs.readFileSync("./common/db.jsonx")
+        const data= fs.readFileSync("./common/db.json")
         return JSON.parse(data);
 }
 
